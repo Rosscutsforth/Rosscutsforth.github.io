@@ -1,0 +1,84 @@
+/* ABOUT ME PAGE */
+
+.about_top_link_1{
+  color: black;
+  font-family: arial;
+}
+
+.about_top_link_2{
+  color: black;
+  font-family: arial;
+}
+
+header{
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: arial;
+  letter-spacing: 2px;
+}
+
+.experience_header{
+  font-family: arial;
+  letter-spacing: 1px;
+}
+
+.experience_paragraph{
+  font-family: arial;
+  letter-spacing: 1px;
+}
+
+.portfolio_header{
+  font-family: courier new;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.portfolio_list{
+  font-family: raleway;
+  letter-spacing: 1px;
+}
+
+.relaxr_image{
+  border-style: solid;
+}
+
+/* PORTFOLIO PAGE */
+
+.developer_life_title{
+  font-family: arial;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.developer_life_description{
+  font-family: lato;
+  letter-spacing: 1px;
+}
+
+.ross_cutsforth_image{
+  height: 130px;
+  width: 160px;
+}
+
+.bottom_links{
+  color: black;
+}
+
+footer{
+  text-align: center;
+}
+
+/* GENERAL */
+
+body{
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: lightgrey;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-spacing: 50px;
+}
