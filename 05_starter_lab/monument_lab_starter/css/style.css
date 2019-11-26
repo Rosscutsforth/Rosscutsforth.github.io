@@ -1,0 +1,125 @@
+
+/* Add a link to GOOGLE FONTS LINK at the top! THis should be the first line of your stylesheet.*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+/*Note: fix so that images will scale with their containers. We'll chat about this more when we cover responsive design*/
+img {
+	padding: 15px;
+	max-width: 100%;
+}
+
+body{
+	background-color: darkgrey;
+}
+
+.top_nav{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+	margin: 100px 20px;
+}
+
+.main_title_image{
+	background-image: url(".images/home_header_bg.jpg");
+}
+
+.main_title{
+	padding-top: 150px;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 8px;
+	font-family: sans-serif;
+	color: white;
+}
+
+.life_mag_title{
+	color: white;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-family: lato;
+}
+
+.archive_title{
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-top: 200px;
+	font-family: sans-serif;
+}
+
+.first_images{
+	display: flex;
+	justify-content: space-between;
+}
+
+.second_images{
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	width: 150px;
+	flex-flow: row wrap;
+	align-self: auto;
+}
+
+.read_more{
+	
+}
+
+.ending_remarks{
+	background-color: lightblue;
+	padding: 50px;
+}
+
+
+.last_divide{
+	color: black;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+a {
+
+}
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Articles
+------------------------------------------- */
+
+
+/* ----------------------------------------
+About
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Gallery
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
