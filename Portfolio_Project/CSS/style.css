@@ -1,0 +1,190 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+/*Main CSS
+  */
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  padding-top: 5px;
+  background-color: #011111;
+
+}
+
+footer{
+  margin: 5% auto;
+}
+
+
+.fa{
+  border-radius: 60%;
+  font-size: 50px;
+  height: 30px;
+  margin: auto 2%;
+  padding: 1% 1% 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  width: 25px;
+}
+
+.fa:hover{
+  opacity: .6;
+}
+
+.fa-twitter{
+  color: #3377EE;
+}
+
+header{
+  padding: auto;
+  margin: auto;
+}
+
+.main_heading{
+  color: white;
+  height: auto;
+  font-family: Lato;
+  font-weight: lighter;
+  letter-spacing: 50px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+nav{
+  align-self: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 5px 80px;
+  padding: 40px;
+}
+
+.nav_stuff{
+  border: solid;
+  border-color: lightblue;
+  color: #551122;
+  font-family: Lato;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin: 10px 60px;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.nav_stuff:hover{
+  opacity: .6;
+  color: white;
+}
+
+.ocean{
+  background-clip: padding-box;
+  background-image: url("../images/Atlantic_Ocean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.website_header{
+  color: #000000;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: lighter;
+  height: 45%;
+  letter-spacing: 9px;
+  margin: auto;
+  padding-top: 275px;
+  text-align: center;
+  text-decoration: overline;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+
+/* CSS that is exclusive to main.html
+ */
+
+.projects_flex{
+  align-content: space-between;
+  align-items: baseline;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: auto 10%;
+  padding: auto;
+}
+
+.project_objects{
+  background-color:;
+  color: white;
+  font-family: monospace;
+  margin: 0% 2%;
+  padding: 0% 1%;
+}
+
+.project_titles{
+  align-self: center;
+  background-color: white;
+  border-radius: 3%;
+  color: black;
+  height: auto;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+
+
+ /* CSS that is exclusive to about_me.html
+  */
+
+.land{
+  background-clip: padding-box;
+  background-image: url("../images/Japan_Sun.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects_flex_about{
+  align-content: space-between;
+  align-items: baseline;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: auto 10%;
+  padding: auto;
+}
+
+.website_header_about{
+  color: #000000;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: lighter;
+  height: 45%;
+  letter-spacing: 9px;
+  margin: auto;
+  padding-top: 275px;
+  text-align: center;
+  text-decoration: overline;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.land:hover{
+  background-color: #CCCCCC;
+  margin: auto;
+}
+
+
+
+/* CSS for size limits... query
+ */
