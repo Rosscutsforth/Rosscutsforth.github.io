@@ -50,6 +50,7 @@ header{
   height: auto;
   font-family: Lato;
   font-weight: lighter;
+  height: auto;
   letter-spacing: 50px;
   text-transform: uppercase;
   width: 100%;
@@ -124,8 +125,9 @@ nav{
   background-color:;
   color: white;
   font-family: monospace;
-  margin: 0% 2%;
+  margin: 0% 1%;
   padding: 0% 1%;
+  width: 25%;
 }
 
 .project_titles{
@@ -137,6 +139,40 @@ nav{
   letter-spacing: 2px;
   text-transform: uppercase;
   width: 100%;
+}
+
+#twitterButton{
+  display: none;
+  text-decoration: none;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 4%;
+}
+
+#twitterNetwork{
+  display:;
+}
+
+#nampButton{
+  display: none;
+  text-decoration: none;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 4%;
+}
+
+#nampAbout{
+  display:;
+}
+
+/* Hover action + form creation for Twitter Network flex object  */
+.project_objects:hover{
+  background-color: white;
+  border-radius: 5%;
+  color: black;
+
 }
 
 
